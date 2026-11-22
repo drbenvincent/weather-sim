@@ -1,0 +1,19 @@
+{
+  "name": "weather-sim",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "node --experimental-strip-types --test test/*.ts",
+    "check": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@webgpu/types": "^0.1.74",
+    "typescript": "~5.6.3",
+    "vite": "^6.0.3"
+  }
+}
